@@ -1,0 +1,72 @@
+[
+  {
+    "keyword": "Feature",
+    "name": "Hello Cypress",
+    "line": 1,
+    "id": "hello-cypress",
+    "tags": [],
+    "uri": "ws-cypress.feature",
+    "elements": [
+      {
+        "id": "hello-cypress;cypress-mock-test",
+        "keyword": "Scenario",
+        "line": 3,
+        "name": "Cypress mock-test",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 4,
+            "name": "I open the browser",
+            "result": {
+              "status": "passed",
+              "duration": 93000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 5,
+            "name": "I open the Google",
+            "result": {
+              "status": "passed",
+              "duration": 410000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 6,
+            "name": "I can search",
+            "result": {
+              "status": "passed",
+              "duration": 37000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 7,
+            "name": "I search \"cookie\"",
+            "result": {
+              "status": "passed",
+              "duration": 356000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 8,
+            "name": "all elements in list should contain \"cookie\"",
+            "result": {
+              "status": "passed",
+              "duration": 234000000
+            }
+          }
+        ]
+      }
+    ]
+  }
+]
