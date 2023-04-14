@@ -22,47 +22,97 @@
             "name": "I open the browser",
             "result": {
               "status": "passed",
-              "duration": 93000000
+              "duration": 969000000
             }
           },
           {
             "arguments": [],
             "keyword": "And ",
             "line": 5,
-            "name": "I open the Google",
+            "name": "I write the login",
             "result": {
               "status": "passed",
-              "duration": 410000000
+              "duration": 202000000
             }
           },
           {
             "arguments": [],
-            "keyword": "Then ",
+            "keyword": "And ",
             "line": 6,
-            "name": "I can search",
+            "name": "I write the password",
             "result": {
               "status": "passed",
-              "duration": 37000000
+              "duration": 421000000
             }
           },
           {
             "arguments": [],
             "keyword": "When ",
             "line": 7,
-            "name": "I search \"cookie\"",
+            "name": "I click the button",
             "result": {
               "status": "passed",
-              "duration": 356000000
+              "duration": 1319000000
             }
           },
           {
             "arguments": [],
             "keyword": "Then ",
             "line": 8,
-            "name": "all elements in list should contain \"cookie\"",
+            "name": "I click on Create",
             "result": {
               "status": "passed",
-              "duration": 234000000
+              "duration": 2690000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 9,
+            "name": "I click on Customer",
+            "result": {
+              "status": "passed",
+              "duration": 1086000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 10,
+            "name": "I click on Create and edit",
+            "result": {
+              "status": "passed",
+              "duration": 515000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 11,
+            "name": "I click on company",
+            "result": {
+              "status": "passed",
+              "duration": 1629000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 12,
+            "name": "I write the name",
+            "result": {
+              "status": "passed",
+              "duration": 599000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 13,
+            "name": "I click on country",
+            "result": {
+              "status": "passed",
+              "duration": 258000000
             }
           }
         ]

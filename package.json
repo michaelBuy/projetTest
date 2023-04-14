@@ -4,7 +4,13 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1", 
+    "cy:run": "cypress run", 
+    "clean": "rimraf cypress/reports/* cypress/screenshots/* cypress/results/*", 
+    "precy:run": "npm run clean", 
+    "cucumber-merge-reports": "cucumber-json-merge -d cypress/cucumber-json -o cypress/cucumber-merged.json", 
+    "cucumber-html-report": "node cypress/generate-cucumber-report.js", 
+    "multiple-cucumber-html-reporter": "3.3.0"
   },
   "author": "",
   "license": "ISC",
@@ -12,9 +18,9 @@
 
   "dependencies": {    
     "cypress-cucumber-preprocessor": "^4.3.1",
-    "cypress": "^12.9.0"
-  
-
+    "cypress": "^12.9.0",
+    "cucumber-json-merge": "^0.0.8",
+    "rimraf": "^3.0.2" 
   },
   "cypress-cucumber-preprocessor": {
     "stepDefinitions": "./cypress/integration/",
